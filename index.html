@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Snake Game</title>
     <style>
+        audio{
+                display:none;
+            } 
+        
         body {
             display: flex;
             flex-direction: column;
@@ -138,6 +142,9 @@
     </style>
 </head>
 <body>
+    <audio controls autoplay loop> 
+         <source src="game-music-teste-204327.mp3" type="audio/mp3" > 
+        </audio>
     <div id="game-container">
         <div id="score-board">
             <div>High Score: <span id="high-score">0</span></div>
